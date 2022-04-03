@@ -1021,9 +1021,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _container: {fileID: 1808263754}
   _capacity: 10
+  _secondsBetweenSpawn: 1
+  _targetPointStorage: {fileID: 430478826}
+  _exitPoint: {fileID: 1536734103}
   _templates:
-  - {fileID: 7198012322213807245, guid: 498692bc1229a6d4c8a585188c5e5173, type: 3}
-  - {fileID: 6617567519199374200, guid: ed675a3a7eb09f24db8def702dcd80e4, type: 3}
+  - {fileID: 763778376543829408, guid: 498692bc1229a6d4c8a585188c5e5173, type: 3}
+  - {fileID: 8319559623352006989, guid: ea31a2a3a703e35468fa84bf487a7829, type: 3}
+  - {fileID: 2674620728695383593, guid: ed675a3a7eb09f24db8def702dcd80e4, type: 3}
   _spawnPoints:
   - {fileID: 226776607}
   - {fileID: 1141429012}
@@ -1034,7 +1038,6 @@ MonoBehaviour:
   - {fileID: 1730676823}
   - {fileID: 718906444}
   - {fileID: 480217315}
-  _secondsBetweenSpawn: 2
 --- !u!1 &906355622
 GameObject:
   m_ObjectHideFlags: 0
