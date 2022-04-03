@@ -12,7 +12,6 @@ abstract public class Item : MonoBehaviour
     [SerializeField] private string _label;
 
     private Rigidbody _rigidbody;
-    private const string _methodDisable = "Disable";
 
     public UnityEvent HitTooth;
 
@@ -40,7 +39,7 @@ abstract public class Item : MonoBehaviour
             Disabled?.Invoke(false);
             _rigidbody.isKinematic = false;
 
-            Invoke(_methodDisable, _delayDisable);
+            Invoke(nameof(Disable), _delayDisable);
         }
     }
 }
